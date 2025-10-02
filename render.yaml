@@ -1,0 +1,9 @@
+
+services:
+  - type: static
+    name: pong-game
+    env: static
+    repo: https://github.com/tanushbhootra576/PongX.git
+    branch: main
+    buildCommand: ""       
+    publishDirectory: "./" 
